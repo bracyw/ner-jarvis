@@ -11,7 +11,7 @@ docs **live**, so nothing checked in here can go stale.
 When working on NER software — onboarding, dev-environment setup, understanding a
 repo or its code, NER conventions/docs, or figuring out who owns what and how to
 escalate — reach for the installed NER skills rather than answering from memory, and
-resolve people/ownership **live** rather than assuming.
+resolve people/ownership **live** rather than assuming. Use the `gh` CLI for GitHub.
 
 ## For you
 
