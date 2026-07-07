@@ -1,0 +1,24 @@
+# NER onboarding workspace
+
+This folder is your **Northeastern Electric Racing (NER) software onboarding
+workspace** — a home base for your Claude Code session while you get set up. It is
+intentionally almost empty: the real knowledge lives in the **NER skills** that
+`ner-jarvis` installed into your Claude Code, and those resolve people, repos, and
+docs **live**, so nothing checked in here can go stale.
+
+## For Claude
+
+When working on NER software — onboarding, dev-environment setup, understanding a
+repo or its code, NER conventions/docs, or figuring out who owns what and how to
+escalate — reach for the installed NER skills rather than answering from memory, and
+resolve people/ownership **live** rather than assuming.
+
+## For you
+
+Open Claude Code here and try things like:
+
+> "Help me get started on the NER software team."
+> "Walk me through setting up my dev environment."
+> "What does <repo> do, and who owns it?"
+
+`ner-jarvis doctor` checks that your skills and data sources are healthy.
