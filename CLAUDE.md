@@ -22,3 +22,21 @@ Open Claude Code here and try things like:
 > "What does <repo> do, and who owns it?"
 
 `ner-jarvis doctor` checks that your skills and data sources are healthy.
+
+## When a doc is wrong
+
+NER's Confluence is mid-restructure, so you will hit pages that read as current and
+aren't. That is worth capturing, not working around — say so, and Claude will record
+it with the **ner-flag-stale** skill.
+
+Reports stay **on your machine** (`~/.claude/ner-jarvis/stale.jsonl`). Nothing is
+sent anywhere. When you're ready to share:
+
+```bash
+ner-jarvis stale list       # what you've recorded
+ner-jarvis stale export     # paste-ready markdown for the team channel
+```
+
+A page counts as stale when someone could mistake it for current *and* acting on it
+would be wrong. A doc describing how something was built before is history, not a
+problem — leave it be.
